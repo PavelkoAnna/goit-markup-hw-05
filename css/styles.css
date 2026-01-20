@@ -581,6 +581,12 @@ body {
 .modal-field {
   margin-bottom: 8px;
 }
+.modal-field-comment {
+  margin-bottom: 16px;
+}
+.modal-field-policy {
+  margin-bottom: 24px;
+}
 .modal-label {
   display: block;
   font-weight: 400;
