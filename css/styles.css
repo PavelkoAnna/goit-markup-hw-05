@@ -579,9 +579,10 @@ body {
   color: #2e2f42;
   margin-bottom: 16px;
 }
-.modal-field {
-  margin-bottom: 8px;
+.modal-field:not(:last-child) {
+  margin-bottom: 16px;
 }
+
 .modal-field-comment {
   margin-bottom: 16px;
 }
@@ -599,7 +600,7 @@ body {
 }
 .modal-input-wrapper {
   position: relative;
-  margin-bottom: 8px;
+  /* margin-bottom: 8px; */
 }
 .modal-input {
   width: 100%;
